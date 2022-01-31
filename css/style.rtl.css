@@ -1,0 +1,165 @@
+/*General*/
+*{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+.section{
+    padding: 70px 0;
+}
+.navbar{
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+.navbar-brand img{
+    background-size: cover;
+}
+.line{
+    width: 30%;
+    height: 5px;
+    background-color: orange;
+    margin-bottom: 40px;
+}
+ul li{
+    margin: 0;
+    padding: 0;
+
+}
+ul li a{
+    text-decoration: none;
+}
+.p-par{
+    color: white;
+}
+.h2-home{
+color: white;
+} 
+.test{
+    top: 0;
+    left: 0;
+    transform: translate(-20%,20%);
+}
+.btun{
+    margin-top: 40px;
+}
+.about__item button{
+    margin-bottom: 15px;
+}
+
+/*section news*/
+.line-news{
+    width: 30%;
+    height: 5px;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+.desc{
+    display: flex;
+}
+.desc img{
+margin-left: 15px;
+}
+
+
+/*section customers*/
+.customers{
+    margin-top: -50px;
+}
+
+.profile{
+    display: flex;
+}
+.line-customers{
+    width: 10%;
+    height: 5px;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+.profile img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding-left:10px ;
+}
+
+
+/*section Subscribe*/
+.subscribe{
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/subscribe-our-newsletter-bg.jpg);
+    background-size: cover;
+}
+.subscribe-item{
+   max-width: 60%;
+   top: 0;
+   left: 0;
+   transform: translate(-55%,50%);
+   direction: rtl;
+}
+.form{
+    display: flex;
+}
+.form button{
+    margin-right: 10px;
+}
+.subscribe-item {
+    color: white;
+}
+
+
+/*section footer*/
+footer{
+   
+    background-color:#071c33; ;
+   color: white;
+
+}
+footer h3{
+    background-color: white;
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+footer nav{
+    color: #6c757d;
+}
+.lister li {
+    padding: 5px 0 ;
+}
+
+.list-unstyled li span{
+    padding-right: 60px;
+    color: #6c757d;
+}
+.list-unstyled ul{
+    padding: 30px 30px;
+}
+.list-unstyled img{
+padding-left: 10px;
+}
+.Connect p{
+    color: #6c757d;
+}
+ input{
+border-radius: 20px;
+}
+
+.nav-sub{
+    padding: 20px 0;
+}
+
+.icons{
+    padding: 30px 0;
+}
+.icons ul li{
+    list-style: none;
+}
+.icons1{
+display: flex;
+justify-content: space-between;
+}
+
+
+/* https://templates.envytheme.com/runhill/rtl/index.html */
